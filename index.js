@@ -54,7 +54,7 @@ class Airplane {
 
     }
     toString(){
-      
+
     }
       
   }
@@ -145,10 +145,10 @@ class Airplane {
      this.catchPhrase = instr.catchPhrase;
    }
    demo(){
-
+    return `Today we are learning about ${this.subject} where subject is the param passed in.`
    }
    grade(){
-
+    return `${this.student.name} receives a perfect score on ${this.subject}`
    }
  }
  
@@ -178,9 +178,10 @@ class Airplane {
        return `Loving ${this.favSubjects}!`
      }
      PRAssignment(){
+       return `${this.student.name} has submitted a PR for ${this.subject}`
      }
      sprintChallenge(){
-
+      return `${this.student.name} has begun sprint challenge on ${this.subject}`
      }
  }
   
@@ -205,10 +206,10 @@ class Airplane {
     }
 
     standUp(){
-
+      return `${this.name} announces to ${this.channel}, @channel standy times!`
     }
     debugsCode(){
-
+      return `${this.name} debugs ${student.name}'s code on ${this.subject}`
     }
 
  }
